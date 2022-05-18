@@ -61,7 +61,7 @@ def start_pannel(_):
 def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
     buttons = [
         [
-            InlineKeyboardButton(text="✯COMMANDS✯", url=f"https://telegra.ph/Anjali-Baby-cOmmANds-05-16"),
+            InlineKeyboardButton(text="《COMMANDS》", url=f"https://telegra.ph/Anjali-Baby-cOmmANds-05-16"),
         ],
     ]
     if SUPPORT_CHANNEL and SUPPORT_GROUP:

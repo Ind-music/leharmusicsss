@@ -18,7 +18,7 @@ call_2 : "Assistant is banned in your group or channel, please unban.\n\n**Assis
 call_3 : "Exception Occured While Inviting Assistant Account to your chat.\n\n**Reason**: {0}"
 call_4 : "Bot requires **Invite Users Via Link** Permission to invite assistant account to your chat group."
 call_5 : "Assistant Account will be joining in 5 Seconds..Please Wait!"
-call_6 : "Assistant Account[{0}] Joined Successfully.\n\nStarting Music Now"
+call_6 : "𝓐𝓼𝓼𝓲𝓼𝓽𝓪𝓷𝓽 𝓐𝓬𝓬𝓸𝓾𝓷𝓽[{0}] 𝓙𝓸𝓲𝓷𝓮𝓭 𝓢𝓾𝓬𝓬𝓮𝓼𝓼𝓯𝓾𝓵𝓵𝔂.\n\n 𝓢𝓽𝓪𝓻𝓽𝓲𝓷𝓰 𝓜𝓾𝓼𝓲𝓬 𝓝𝓸𝔀"
 call_7 : "**Harmful Admin Right Given **\n\nPlease remove **BAN USERS** rights from the bot."
 call_8 : "**Harmful Admin Right Given **\n\nPlease remove **ADD NEW ADMINS** rights from the bot."
 call_9 : "**Failed to switch Stream**\nPlease use /skip to change track again."
@@ -90,7 +90,7 @@ start_2 : "ᴛʜɪs ɪs ⚡️𝘢𝘯𝘫𝘢𝘭𝘪⚡️𝙈𝙪𝙨𝙞𝙘
 💞 ɪғ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ ǫᴜᴇsᴛɪᴏɴs ᴀʙᴏᴜᴛ ᴍᴇ ᴛʜᴇɴ ᴅᴍ ᴛᴏ ᴍʏ ᴏᴡɴᴇʀ ʙᴀʙʏ...
 
 ━━━━━━━━━━━━━━━━━━."
-start_3 : "Welcome To {0}\n\nI don't need any **admin permission** to work ( until asked for ).\n\nAssistant Username:- @{1}\nAssistant ID:- {2}"
+start_3 : "𝓦𝓮𝓵𝓬𝓸𝓶𝓮 𝓣𝓸 {0}\n\n𝓭𝓸𝓷'𝓽 𝓷𝓮𝓮𝓭 𝓪𝓷𝔂 **𝓪𝓭𝓶𝓲𝓷 𝓹𝓮𝓻𝓶𝓲𝓼𝓼𝓲𝓸𝓷** 𝓽𝓸 𝔀𝓸𝓻𝓴 ( 𝓾𝓷𝓽𝓲𝓵 𝓪𝓼𝓴𝓮𝓭 𝓯𝓸𝓻 ).\n\n𝓐𝓼𝓼𝓲𝓼𝓽𝓪𝓷𝓽 𝓤𝓼𝓮𝓻𝓷𝓪𝓶𝓮:- @{1}\n𝓐𝓼𝓼𝓲𝓼𝓽𝓪𝓷𝓽 𝓘𝓓:- {2}"
 start_4 : "{0}'s Owner[{1}] has just joined your chat."
 start_5 : "A member of {0}'s Sudo User[{1}] has just joined your chat."
 start_6 : "❗️ **Supergroup Needed** ❗️\n\nPlease convert your **group** to **supergroup** and then add me back.\n\n**How to make supergroup?**\n✅ Make your group's chat history **visible** once."
@@ -156,8 +156,8 @@ cplay_5 : "Only Channels are supported."
 cplay_6 : "You need to be the **Owner** of the channel[{0}] to connect it with this group.\n**Channel's Owner:** @{1}\n\nAlternatively you can link your group to that channel and then try connnecting with `/channelplay linked`"
 
 #Play
-play_1 : "🔄 Processing Query... Please Wait!"
-play_2 : "**🏷Channel Play Mode**\n\n🔄 Processing Query... Please Wait!\n**Linked Channel:** {0}"
+play_1 : "ᴘʀᴏᴄᴇssɪɴɢ ... ᴘʟᴇᴀsᴇ ᴡᴀɪᴛ ʙᴀʙʏ🔎!"
+play_2 : "**🏷Channel Play Mode**\n\nᴘʀᴏᴄᴇssɪɴɢ ... ᴘʟᴇᴀsᴇ ᴡᴀɪᴛ ʙᴀʙʏ🔎!\n**Linked Channel:** {0}"
 play_3 : "Failed to Process Query!"
 play_4 : "🖇 **Admins Only Play**\nOnly Admins and Auth Users can play music in this group.\n\nChange mode via /playmode and if you're already admin, reload admincache via /admincache"
 play_5 : "Failed to process audio file.\n\nAudio File Size Should Be Less Than 100 mb"
@@ -177,7 +177,7 @@ play_18 : "**No Active Voice Chat Found**\n\nTo use force play, there must be an
 
 
 #Playlist
-playlist_1 : "**Usage:** /play [Music Name or Youtube Link or Reply to Audio]\n\nIf you want to play Bot's Server Playlist! Press the button below."
+playlist_1 : "**𝙐𝙨𝙖𝙜𝙚:** /play [𝘔𝘶𝘴𝘪𝘤 𝘕𝘢𝘮𝘦 𝘰𝘳 𝘠𝘰𝘶𝘵𝘶𝘣𝘦 𝘓𝘪𝘯𝘬 𝘰𝘳 𝘙𝘦𝘱𝘭𝘺 𝘵𝘰 𝘈𝘶𝘥𝘪𝘰]\n\n𝓘𝓯 𝔂𝓸𝓾 𝔀𝓪𝓷𝓽 𝓽𝓸 𝓹𝓵𝓪𝔂 𝓑𝓸𝓽'𝓼 𝓢𝓮𝓻𝓿𝓮𝓻 𝓟𝓵𝓪𝔂𝓵𝓲𝓼𝓽! 𝓟𝓻𝓮𝓼𝓼 𝓽𝓱𝓮 𝓫𝓾𝓽𝓽𝓸𝓷 𝓫𝓮𝓵𝓸𝔀."
 playlist_2 : "Getting your playlist. Please wait"
 playlist_3 : "You have no playlist on Bot's Server."
 playlist_4 : "Fetched Playlist:\n\n"
@@ -262,12 +262,12 @@ L_B_1 : "🚀 Checkout Lyrics Now"
 # Start
 S_B_1 : "🗒 Commands"
 S_B_2 : "🔧 Settings"
-S_B_3 : "✭Group✭"
-S_B_4 : "✭Owner✭"
-S_B_5 : "✭ ADD ME TO YOUR GROUP ✭"
+S_B_3 : "《Group》"
+S_B_4 : "《Owner》"
+S_B_5 : "《 ADD ME TO YOUR GROUP 》"
 S_B_6 : "💡 Git Repo"
-S_B_7 : "✭Assistant✭"
-S_B_8 : "✭Commands✭"
+S_B_7 : "《Assistant》"
+S_B_8 : "《Commands》"
 
 #Help 
 H_B_1 : "Admin Commands"
@@ -289,17 +289,17 @@ P_B_3 : "🏮 Start Live Stream"
 P_B_4 : "🎵 Play Playlist"
 
 #Playlist
-PL_B_1 : "🚀 Play Playlist"
+PL_B_1 : "《🚀 Play Playlist》"
 PL_B_2 : 
 PL_B_3 : 
-PL_B_4 : "📡 Play Mode"
+PL_B_4 : "《📡 Play Mode》"
 PL_B_5 : "🔄 Del Whole Playlist"
 PL_B_6 : "↗️ Delete Playlist"
 PL_B_7 : "❗️ Yes, I'm sure. Delete it"
 PL_B_8 : "🔢 Play Top 10"
-PL_B_9 : "🤖 Play Global Top 10 Tracks"
-PL_B_10 : "🏘 Play Group's Top 10 Tracks"
-PL_B_11 : "👤 Play Personal Top 10 Tracks"
+PL_B_9 : "《🤖 Play Global Top 10 Tracks》"
+PL_B_10 : "《🏘 Play Group's Top 10 Tracks》"
+PL_B_11 : "《👤 Play Personal Top 10 Tracks》"
 
 #Settings
 ST_B_1 : "🔊 Aud Quality"
@@ -307,7 +307,7 @@ ST_B_2 : "🎥 Vid Quality"
 ST_B_3 : "🎩 Auth Users"
 ST_B_4 : "📱 Dashboard"
 ST_B_5 : "▶️ Play Mode"
-ST_B_6 : "✭🏳️‍🌈 Language✭"
+ST_B_6 : "《🏳️‍🌈 Language》"
 ST_B_7 : "🔄 Clean Mode"
 ST_B_8 : "{0} Low Quality Audio"
 ST_B_9 : "{0} Medium Quality Audio"

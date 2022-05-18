@@ -156,8 +156,8 @@ cplay_5 : "Only Channels are supported."
 cplay_6 : "You need to be the **Owner** of the channel[{0}] to connect it with this group.\n**Channel's Owner:** @{1}\n\nAlternatively you can link your group to that channel and then try connnecting with `/channelplay linked`"
 
 #Play
-play_1 : "ᴘʀᴏᴄᴇssɪɴɢ ... ᴘʟᴇᴀsᴇ ᴡᴀɪᴛ ʙᴀʙʏ🔎!"
-play_2 : "**🏷Channel Play Mode**\n\nᴘʀᴏᴄᴇssɪɴɢ ... ᴘʟᴇᴀsᴇ ᴡᴀɪᴛ ʙᴀʙʏ🔎!\n**Linked Channel:** {0}"
+play_1 : "🔎!"
+play_2 : "**🏷Channel Play Mode**\n\n🔎!\n**Linked Channel:** {0}"
 play_3 : "Failed to Process Query!"
 play_4 : "🖇 **Admins Only Play**\nOnly Admins and Auth Users can play music in this group.\n\nChange mode via /playmode and if you're already admin, reload admincache via /admincache"
 play_5 : "Failed to process audio file.\n\nAudio File Size Should Be Less Than 100 mb"
@@ -177,7 +177,7 @@ play_18 : "**No Active Voice Chat Found**\n\nTo use force play, there must be an
 
 
 #Playlist
-playlist_1 : "**𝙐𝙨𝙖𝙜𝙚:** /play [𝘔𝘶𝘴𝘪𝘤 𝘕𝘢𝘮𝘦 𝘰𝘳 𝘠𝘰𝘶𝘵𝘶𝘣𝘦 𝘓𝘪𝘯𝘬 𝘰𝘳 𝘙𝘦𝘱𝘭𝘺 𝘵𝘰 𝘈𝘶𝘥𝘪𝘰]\n\n𝓘𝓯 𝔂𝓸𝓾 𝔀𝓪𝓷𝓽 𝓽𝓸 𝓹𝓵𝓪𝔂 𝓑𝓸𝓽'𝓼 𝓢𝓮𝓻𝓿𝓮𝓻 𝓟𝓵𝓪𝔂𝓵𝓲𝓼𝓽! 𝓟𝓻𝓮𝓼𝓼 𝓽𝓱𝓮 𝓫𝓾𝓽𝓽𝓸𝓷 𝓫𝓮𝓵𝓸𝔀."
+playlist_1 : "**𝙐𝙨𝙖𝙜𝙚:** /play [𝘔𝘶𝘴𝘪𝘤 𝘕𝘢𝘮𝘦 𝘰𝘳 𝘠𝘰𝘶𝘵𝘶𝘣𝘦 𝘓𝘪𝘯𝘬 𝘰𝘳 𝘙𝘦𝘱𝘭𝘺 𝘵𝘰 𝘈𝘶𝘥𝘪𝘰]\n\n𝘐𝘧 𝘺𝘰𝘶 𝘸𝘢𝘯𝘵 𝘵𝘰 𝘱𝘭𝘢𝘺 𝘉𝘰𝘵'𝘴 𝘚𝘦𝘳𝘷𝘦𝘳 𝘗𝘭𝘢𝘺𝘭𝘪𝘴𝘵 ! 𝘱𝘳𝘦𝘴𝘴 𝘵𝘩𝘦 𝘣𝘶𝘵𝘵𝘰𝘯 𝘣𝘦𝘭𝘰𝘸."
 playlist_2 : "Getting your playlist. Please wait"
 playlist_3 : "You have no playlist on Bot's Server."
 playlist_4 : "Fetched Playlist:\n\n"
@@ -293,10 +293,10 @@ PL_B_1 : "《🚀 Play Playlist》"
 PL_B_2 : 
 PL_B_3 : 
 PL_B_4 : "《📡 Play Mode》"
-PL_B_5 : "🔄 Del Whole Playlist"
-PL_B_6 : "↗️ Delete Playlist"
-PL_B_7 : "❗️ Yes, I'm sure. Delete it"
-PL_B_8 : "🔢 Play Top 10"
+PL_B_5 : "《🔄 Del Whole Playlist》"
+PL_B_6 : "《↗️ Delete Playlist》"
+PL_B_7 : "❗️ Yes, I'm sure. Delete it》"
+PL_B_8 : "《🔢 Play Top 10》"
 PL_B_9 : "《🤖 Play Global Top 10 Tracks》"
 PL_B_10 : "《🏘 Play Group's Top 10 Tracks》"
 PL_B_11 : "《👤 Play Personal Top 10 Tracks》"

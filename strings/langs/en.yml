@@ -237,7 +237,7 @@ stream_4 : "📡 **𝙎𝙩𝙖𝙧𝙩𝙚𝙙 𝙎𝙩𝙧𝙚𝙖𝙢𝙞𝙣
 # Inline Buttons
 
 #General Buttons
-CLOSE_BUTTON  : "《🗑Close》"
+CLOSE_BUTTON  : "《🗑 Close》"
 CLOSEMENU_BUTTON  : "🗑 Close Menu"
 BACK_BUTTON : "⬅ Back"
 UNBAN_BUTTON : "🗑 Unban Assistant"
@@ -275,7 +275,7 @@ P_B_3 : "🏮 Start Live Stream"
 P_B_4 : "🎵 Play Playlist"
 
 #Playlist
-PL_B_1 : "《🚀Play Playlist》"
+PL_B_1 : "《🚀 Play Playlist》"
 PL_B_2 : 
 PL_B_3 : 
 PL_B_4 : "《📡 Play Mode》"

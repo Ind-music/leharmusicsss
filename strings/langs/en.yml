@@ -163,7 +163,7 @@ play_18 : "**No Active Voice Chat Found**\n\nTo use force play, there must be an
 
 
 #Playlist
-playlist_1 : "**𝙐𝙨𝙖𝙜𝙚:**/play [Music Name or Youtube Link or Reply to Audio]\n\n𝘐If you want to play Bot's Server Playlist! Press the button below! ."
+playlist_1 : "**𝙐𝙨𝙖𝙜𝙚:**/play [Music Name or Youtube Link or Reply to Audio]\n\n𝘐If you want to play Bot's Server Playlist! Press the button below."
 playlist_2 : "Getting your playlist. Please wait"
 playlist_3 : "You have no playlist on Bot's Server."
 playlist_4 : "Fetched Playlist:\n\n"

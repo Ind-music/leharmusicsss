@@ -237,8 +237,8 @@ stream_4 : "📡 **𝙎𝙩𝙖𝙧𝙩𝙚𝙙 𝙎𝙩𝙧𝙚𝙖𝙢𝙞𝙣
 # Inline Buttons
 
 #General Buttons
-CLOSE_BUTTON  : "❰🗑 Close❱"
-CLOSEMENU_BUTTON  : "🗑 Close Menu"
+CLOSE_BUTTON  : "❰🗑 𝘾𝙡𝙤𝙨𝙚❱"
+CLOSEMENU_BUTTON  : "🗑 𝘾𝙡𝙤𝙨𝙚 Menu"
 BACK_BUTTON : "⬅ Back"
 UNBAN_BUTTON : "🗑 Unban Assistant"
 
@@ -275,14 +275,14 @@ P_B_3 : "🏮 Start Live Stream"
 P_B_4 : "🎵 Play Playlist"
 
 #Playlist
-PL_B_1 : "❰🚀 Play Playlist❱"
+PL_B_1 : "❰🚀 𝙋𝙡𝙖𝙮 𝙋𝙡𝙖𝙮𝙡𝙞𝙨𝙩❱"
 PL_B_2 : 
 PL_B_3 : 
-PL_B_4 : "❰📡 Play Mode❱"
+PL_B_4 : "❰📡 𝙋𝙡𝙖𝙮 𝙈𝙤𝙙𝙚❱"
 PL_B_5 : "❰🔄 Del Whole Playlist❱"
 PL_B_6 : "❰↗️ Delete Playlist❱"
 PL_B_7 : "❰❗️ Yes, I'm sure. Delete it❱"
-PL_B_8 : "❰🔢 Play Top 10❱"
+PL_B_8 : "❰🔢 𝙋𝙡𝙖𝙮 𝙏𝙤𝙥 10❱"
 PL_B_9 : "❰🤖 Play Global Top 10 Tracks❱"
 PL_B_10 : "❰🏘 Play Group's Top 10 Tracks❱"
 PL_B_11 : "❰👤 Play Personal Top 10 Tracks❱"

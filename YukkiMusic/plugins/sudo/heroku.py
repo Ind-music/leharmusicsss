@@ -330,7 +330,7 @@ async def restart_(_, message):
         try:
             await app.send_message(
                 x,
-                f"{config.MUSIC_BOT_NAME} has just restarted herself. Sorry for the issues.\n\nStart playing after 10-15 seconds again.",
+                f"{config.𝙇𝙚𝙝𝙖𝙧} 𝙝𝙖𝙨 𝙟𝙪𝙨𝙩 𝙧𝙚𝙨𝙩𝙖𝙧𝙩𝙚𝙙 𝙝𝙚𝙧𝙨𝙚𝙡𝙛. 𝙎𝙤𝙧𝙧𝙮 𝙛𝙤𝙧 𝙩𝙝𝙚 𝙞𝙨𝙨𝙪𝙚𝙨.\n\n𝙎𝙩𝙖𝙧𝙩 𝙥𝙡𝙖𝙮𝙞𝙣𝙜 𝙖𝙛𝙩𝙚𝙧 10-15 𝙨𝙚𝙘𝙤𝙣𝙙𝙨 𝙖𝙜𝙖𝙞𝙣.",
             )
             await remove_active_chat(x)
             await remove_active_video_chat(x)

@@ -10,19 +10,19 @@ general_6 : "Bot isn't streaming on voice chat."
 
 # Classes - Telegram.py
 tg_1 : "Bot is **overloaded** with downloads right now.\n\n**Try After:** {0} (__expected time__)"
-tg_2 : "Failed to download the media from telegram."
+tg_2 : "𝙁𝙖𝙞𝙡𝙚𝙙 𝙩𝙤 𝙙𝙤𝙬𝙣𝙡𝙤𝙖𝙙 𝙩𝙝𝙚 𝙢𝙚𝙙𝙞𝙖 𝙛𝙧𝙤𝙢 𝙩𝙚𝙡𝙚𝙜𝙧𝙖𝙢."
 
 # Core - Call.py
-call_1 : "Bot requires **Admin** Permission to invite assistant account to your channel."
-call_2 : "Assistant is banned in your group or channel, please unban.\n\n**Assistant Username:** @{0}\n**Assistant ID:** {1}"
+call_1 : "𝘽𝙤𝙩 𝙧𝙚𝙦𝙪𝙞𝙧𝙚𝙨 **𝘼𝙙𝙢𝙞𝙣** 𝙋𝙚𝙧𝙢𝙞𝙨𝙨𝙞𝙤𝙣 𝙩𝙤 𝙞𝙣𝙫𝙞𝙩𝙚 𝙖𝙨𝙨𝙞𝙨𝙩𝙖𝙣𝙩 𝙖𝙘𝙘𝙤𝙪𝙣𝙩 𝙩𝙤 𝙮𝙤𝙪𝙧 𝙘𝙝𝙖𝙣𝙣𝙚𝙡."
+call_2 : "𝘼𝙨𝙨𝙞𝙨𝙩𝙖𝙣𝙩 𝙞𝙨 𝙗𝙖𝙣𝙣𝙚𝙙 𝙞𝙣 𝙮𝙤𝙪𝙧 𝙜𝙧𝙤𝙪𝙥 𝙤𝙧 𝙘𝙝𝙖𝙣𝙣𝙚𝙡, 𝙥𝙡𝙚𝙖𝙨𝙚 𝙪𝙣𝙗𝙖𝙣.\n\n**𝘼𝙨𝙨𝙞𝙨𝙩𝙖𝙣𝙩 𝙐𝙨𝙚𝙧𝙣𝙖𝙢𝙚:** @{0}\n**𝘼𝙨𝙨𝙞𝙨𝙩𝙖𝙣𝙩 ID:** {1}"
 call_3 : "𝙀𝙭𝙘𝙚𝙥𝙩𝙞𝙤𝙣 𝙊𝙘𝙘𝙪𝙧𝙚𝙙 𝙒𝙝𝙞𝙡𝙚 𝙄𝙣𝙫𝙞𝙩𝙞𝙣𝙜 𝘼𝙨𝙨𝙞𝙨𝙩𝙖𝙣𝙩 𝘼𝙘𝙘𝙤𝙪𝙣𝙩 𝙩𝙤 𝙮𝙤𝙪𝙧 𝙘𝙝𝙖𝙩.\n\n**𝙍𝙚𝙖𝙨𝙤𝙣**: 𝘽𝙤𝙩 𝙧𝙚𝙦𝙪𝙞𝙧𝙚𝙨 𝙄𝙣𝙫𝙞𝙩𝙚 𝙐𝙨𝙚𝙧𝙨 𝙑𝙞𝙖 𝙇𝙞𝙣𝙠 𝙋𝙚𝙧𝙢𝙞𝙨𝙨𝙞𝙤𝙣 𝙩𝙤 𝙞𝙣𝙫𝙞𝙩𝙚 𝙖𝙨𝙨𝙞𝙨𝙩𝙖𝙣𝙩 𝙖𝙘𝙘𝙤𝙪𝙣𝙩 𝙩𝙤 𝙮𝙤𝙪𝙧 𝙘𝙝𝙖𝙩 𝙜𝙧𝙤𝙪𝙥"
-call_4 : "Bot requires **Invite Users Via Link** Permission to invite assistant account to your chat group."
+call_4 : "𝘽𝙤𝙩 𝙧𝙚𝙦𝙪𝙞𝙧𝙚𝙨 **𝙄𝙣𝙫𝙞𝙩𝙚 𝙐𝙨𝙚𝙧𝙨 𝙑𝙖𝙞 𝙇𝙞𝙣𝙠** 𝙋𝙚𝙧𝙢𝙞𝙨𝙨𝙞𝙤𝙣 𝙩𝙤 𝙞𝙣𝙫𝙞𝙩𝙚 𝙖𝙨𝙨𝙞𝙨𝙩𝙖𝙣𝙩 𝙖𝙘𝙘𝙤𝙪𝙣𝙩 𝙩𝙤 𝙮𝙤𝙪𝙧 𝙘𝙝𝙖𝙩 𝙜𝙧𝙤𝙪𝙥."
 call_5 : "𝘼𝙨𝙨𝙞𝙨𝙩𝙖𝙣𝙩  𝘼𝙘𝙘𝙤𝙪𝙣𝙩 𝙬𝙞𝙡𝙡 𝙗𝙚 𝙟𝙤𝙞𝙣𝙞𝙣𝙜 𝙞𝙣 5 𝙎𝙚𝙘𝙤𝙣𝙙𝙨..𝙋𝙡𝙚𝙖𝙨𝙚 𝙒𝙖𝙞𝙩!"
 call_6 : "𝘼𝙨𝙨𝙞𝙨𝙩𝙖𝙣𝙩 𝘼𝙘𝙘𝙤𝙪𝙣𝙩[{0}] 𝙅𝙤𝙞𝙣𝙚𝙙 𝙎𝙪𝙘𝙘𝙚𝙨𝙨𝙛𝙪𝙡𝙡𝙮.\n\n𝙎𝙩𝙖𝙧𝙩𝙞𝙣𝙜 𝙈𝙪𝙨𝙞𝙘 𝙉𝙤𝙬"
 call_7 : "**Harmful Admin Right Given **\n\nPlease remove **BAN USERS** rights from the bot."
 call_8 : "**Harmful Admin Right Given **\n\nPlease remove **ADD NEW ADMINS** rights from the bot."
 call_9 : "**Failed to switch Stream**\nPlease use /skip to change track again."
-call_10 : "Downloading Next Track from Playlist"
+call_10 : "𝘿𝙤𝙬𝙣𝙡𝙤𝙖𝙙𝙞𝙣𝙜 𝙉𝙚𝙭𝙩 𝙏𝙧𝙖𝙘𝙠 𝙛𝙧𝙤𝙢 𝙋𝙡𝙖𝙮𝙡𝙞𝙨𝙩"
 call_11 : "Please add @{0} to your channel[ ID: {1}].\n\nBot is not able to get channel details."
 
 # PLUGINS - Auth.py
@@ -33,7 +33,7 @@ auth_4 : "Removed from Authorised Users List of this Group."
 auth_5 : "Targeted user is not an Authorised User."
 auth_6 : "Fetching Authorised Users... Please Wait"
 auth_7 : "**Authorised Users List[AUL]:**\n\n"
-auth_8 : "┗ Added By:-"
+auth_8 : "┗ 𝘼𝙙𝙙𝙚𝙙 𝘽𝙮:-"
 
 # PLUGINS - Admins
 admin_1 : "𝙈𝙪𝙨𝙞𝙘 𝙞𝙨 𝙖𝙡𝙧𝙚𝙖𝙙𝙮 𝙋𝙖𝙪𝙨𝙚𝙙."
@@ -56,7 +56,7 @@ admin_17 : "{0}.. Please Wait"
 admin_18 : "Admin List Not Found\n\nPlease reload adminlist via /admincache or /reload"
 admin_19 : "You need to be admin with manage voice chat rights to perform this.\nIf you're already admin, reload admincache via /admincache "
 admin_20 : "𝘼𝙙𝙢𝙞𝙣 𝙘𝙖𝙘𝙝𝙚 𝙧𝙚𝙡𝙤𝙖𝙙𝙚𝙙 𝙨𝙪𝙘𝙘𝙚𝙨𝙨𝙛𝙪𝙡𝙡𝙮."
-admin_21 : "Nothing inside queue to shuffle"
+admin_21 : "𝙉𝙤𝙩𝙝𝙞𝙣𝙜 𝙞𝙣𝙨𝙞𝙙𝙚 𝙦𝙪𝙚𝙪𝙚 𝙩𝙤 𝙨𝙝𝙪𝙛𝙛𝙡𝙚"
 admin_22 : "Failed to shuffle.\n\nCheck queue : /queue"
 admin_23 : "**Queue Shuffled by {0}**\n\nCheck shuffled queue : /queue"
 admin_24 : "**Usage:**\n/loop [enable/disable] or [Number between 1-10]\n\n**Example:** /loop 5"
@@ -64,12 +64,12 @@ admin_25 : "Loop enabled by {0} for **{1}** times. Bot will now repeat the curre
 admin_26 : "Please use numbers between 1-10 for loop play"
 admin_27 : "Loop Play has been disabled"
 admin_28 : "**Usage:**\n/seek or /seekback [Duration in seconds]"
-admin_29 : "Please use numeric duration seconds like 10-20-30 second for seeking"
-admin_30 : "Sorry but you can't seek the currently playing stream. It can only be skipped or stopped."
-admin_31 : "Bot is not able to seek due to high duration given. You need to seek to a lower duration and remember that a time of 10 seconds is left after seeking.\n\nCurrently played** {0}** mins out of **{1}** mins"
-admin_32 : "Please Wait... Seeking ongoing stream."
-admin_33 : "Successfully Seeked Stream to {0} Mins"
-admin_34 : "Failed to seek the current stream."
+admin_29 : "𝙋𝙡𝙚𝙖𝙨𝙚 𝙪𝙨𝙚 𝙣𝙪𝙢𝙚𝙧𝙞𝙘 𝙙𝙪𝙧𝙖𝙩𝙞𝙤𝙣 𝙨𝙚𝙘𝙤𝙣𝙙𝙨 𝙡𝙞𝙠𝙚 10-20-30 𝙨𝙚𝙘𝙤𝙣𝙙 𝙛𝙤𝙧 𝙨𝙚𝙚𝙠𝙞𝙣𝙜"
+admin_30 : "𝙎𝙤𝙧𝙧𝙮 𝙗𝙪𝙩 𝙮𝙤𝙪 𝙘𝙖𝙣'𝙩 𝙨𝙚𝙚𝙠 𝙩𝙝𝙚 𝙘𝙪𝙧𝙧𝙚𝙣𝙩𝙡𝙮 𝙥𝙡𝙖𝙮𝙞𝙣𝙜 𝙨𝙩𝙧𝙚𝙖𝙢｡ 𝙄𝙩 𝙘𝙖𝙣 𝙤𝙣𝙡𝙮 𝙗𝙚 𝙨𝙠𝙞𝙥𝙥𝙚𝙙 𝙤𝙧 𝙨𝙩𝙤𝙥𝙥𝙚𝙙."
+admin_31 : "𝘽𝙤𝙩 𝙞𝙨 𝙣𝙤𝙩 𝙖𝙗𝙡𝙚 𝙩𝙤 𝙨𝙚𝙚𝙠 𝙙𝙪𝙚 𝙩𝙤 𝙝𝙞𝙜𝙝 𝙙𝙪𝙧𝙖𝙩𝙞𝙤𝙣 𝙜𝙞𝙫𝙚𝙣. 𝙔𝙤𝙪 𝙣𝙚𝙚𝙙 𝙩𝙤 𝙨𝙚𝙚𝙠 𝙩𝙤 𝙖 𝙡𝙤𝙬𝙚𝙧 𝙙𝙪𝙧𝙖𝙩𝙞𝙤𝙣 𝙖𝙣𝙙 𝙧𝙚𝙢𝙚𝙢𝙗𝙚𝙧 𝙩𝙝𝙖𝙩 𝙖 𝙩𝙞𝙢𝙚 𝙤𝙛 10 𝙨𝙚𝙘𝙤𝙣𝙙𝙨 𝙞𝙨 𝙡𝙚𝙛𝙩 𝙖𝙛𝙩𝙚𝙧 𝙨𝙚𝙚𝙠𝙞𝙣𝙜.\n\n𝘾𝙪𝙧𝙧𝙚𝙣𝙩𝙡𝙮 𝙥𝙡𝙖𝙮𝙚𝙙** {0}** 𝙈𝙞𝙣𝙨 𝙤𝙪𝙩 𝙤𝙛 **{1}** 𝙈𝙞𝙣𝙨"
+admin_32 : "𝙋𝙡𝙚𝙖𝙨𝙚 𝙒𝙖𝙞𝙩... 𝙎𝙚𝙚𝙠𝙞𝙣𝙜 𝙤𝙣𝙜𝙤𝙞𝙣𝙜 𝙨𝙩𝙧𝙚𝙖𝙢."
+admin_33 : "𝙎𝙪𝙘𝙘𝙚𝙨𝙨𝙛𝙪𝙡𝙡𝙮 𝙎𝙚𝙚𝙠𝙚𝙙 𝙎𝙩𝙧𝙚𝙖𝙢 𝙩𝙤 {0} 𝙈𝙞𝙣𝙨"
+admin_34 : "𝙁𝙖𝙞𝙡𝙚𝙙 𝙩𝙤 𝙨𝙚𝙚𝙠 𝙩𝙝𝙚 𝙘𝙪𝙧𝙧𝙚𝙣𝙩 𝙨𝙩𝙧𝙚𝙖𝙢."
 
 # Bot 
 
@@ -167,7 +167,7 @@ playlist_1 : "**𝙐𝙨𝙖𝙜𝙚:**/play [𝙈𝙪𝙨𝙞𝙘 𝙉𝙖𝙢�
 playlist_2 : "Getting your playlist. Please wait"
 playlist_3 : "You have no playlist on Bot's Server."
 playlist_4 : "Fetched Playlist:\n\n"
-playlist_5 :  "    Duration- {0} Mins"
+playlist_5 :  "    𝘿𝙪𝙧𝙖𝙩𝙞𝙤𝙣 - {0} 𝙈𝙞𝙣𝙨"
 playlist_6 : "Contact me in PM for deletion of Playlists."
 playlist_7 : "Tracks Inside Playlist: {0}\n\nPress the Buttons to delete a particular track in your playlist.\n\nTo delete whole playlist: Press Del Whole Playlist button."
 playlist_8 : "Already Exists\n\nThis track exists in your playlist."
@@ -178,8 +178,8 @@ playlist_12 : "Failed to delete your track."
 playlist_13 : "Deleted your whole playlists from the server. "
 playlist_14 : "**Are you Sure you want to delete your whole playlist?**\n\nYou'll lost your playlist and this can't be recovered later."
 playlist_15 : "[Checkout Whole Playlist]({0})"
-playlist_16 : "Queued Playlist:"
-playlist_17 : "Queued Position-"
+playlist_16 : "𝙌𝙪𝙚𝙪𝙚𝙙 𝙋𝙡𝙖𝙮𝙡𝙞𝙨𝙩:"
+playlist_17 : "𝙌𝙪𝙚𝙪𝙚𝙙 𝙋𝙤𝙨𝙞𝙩𝙞𝙤𝙣-"
 playlist_18 : "[Checkout Whole Queued Playlist]({0})\n\nLast Queued Position : **{1}**"
 
 #Playmode
@@ -249,10 +249,10 @@ L_B_1 : "❰🚀 𝘾𝙝𝙚𝙘𝙠𝙤𝙪𝙩 𝙇𝙮𝙧𝙞𝙘𝙨 𝙉�
 S_B_1 : "❰🗒 𝘾𝙤𝙢𝙢𝙖𝙣𝙙𝙨❱"
 S_B_2 : "❰🔧 𝙎𝙚𝙩𝙩𝙞𝙣𝙜❱"
 S_B_3 : "❰𝙂𝙧𝙤𝙪𝙥❱"
-S_B_4 : "❰𝙊𝙬𝙣𝙚𝙧❱"
+S_B_4 : "❰𝙂𝙧𝙤𝙪𝙥❱"
 S_B_5 : " ❰𝘼𝘿𝘿 𝙈𝙀 𝙏𝙊 𝙔𝙊𝙐𝙍 𝙂𝙍𝙊𝙐𝙋❱"
 S_B_6 : "💡 Git Repo"
-S_B_7 : "❰𝘼𝙨𝙨𝙞𝙨𝙩𝙖𝙣𝙩❱"
+S_B_7 : "❰𝙊𝙬𝙣𝙚𝙧❱"
 S_B_8 : "❰𝘾𝙤𝙢𝙢𝙖𝙣𝙙𝙨❱"
 
 #Help 
@@ -264,15 +264,15 @@ H_B_5 : "❰𝘾𝙡𝙤𝙨𝙚 𝙈𝙚𝙣𝙪❱"
 H_B_6 : "❰𝙎𝙪𝙙𝙤𝙐𝙨𝙚𝙧 𝘾𝙤𝙢𝙢𝙖𝙣𝙙𝙨❱"
 
 #PlayMode
-PM_B_1 : "DirectPlay"
-PM_B_2 : "InlineMarkup"
-PM_B_3 : "ChannelPlay"
+PM_B_1 : "❰𝘿𝙞𝙧𝙚𝙘𝙩𝙋𝙡𝙖𝙮❱"
+PM_B_2 : "❰𝙄𝙣𝙡𝙞𝙣𝙚𝙈𝙖𝙧𝙠𝙪𝙥❱"
+PM_B_3 : "❰𝘾𝙝𝙖𝙣𝙣𝙚𝙡𝙋𝙡𝙖𝙮❱"
 
 #Play
-P_B_1 : "🎵 Play Audio"
-P_B_2 : "🎥 Play Video"
-P_B_3 : "🏮 Start Live Stream"
-P_B_4 : "🎵 Play Playlist"
+P_B_1 : "❰🎵 𝙋𝙡𝙖𝙮 𝘼𝙪𝙙𝙞𝙤❱"
+P_B_2 : "❰🎥 𝙋𝙡𝙖𝙮 𝙑𝙞𝙙𝙚𝙤❱"
+P_B_3 : "❰🏮 𝙎𝙩𝙖𝙧𝙩 𝙇𝙞𝙫𝙚 𝙎𝙩𝙧𝙚𝙖𝙢❱"
+P_B_4 : "❰🎵 𝙋𝙡𝙖𝙮 𝙋𝙡𝙖𝙮𝙡𝙞𝙨𝙩❱"
 
 #Playlist
 PL_B_1 : "❰🚀 𝙋𝙡𝙖𝙮 𝙋𝙡𝙖𝙮𝙡𝙞𝙨𝙩❱"
@@ -314,7 +314,7 @@ ST_B_23 : "🏘 Group"
 ST_B_24 : "🏷 Channel"
 ST_B_25 : "🫂 Play Type"
 ST_B_26 : "🗑 Command Clean"
-ST_B_27 : "🧑‍🚀 Suggestion Mode"
+ST_B_27 : "🧑‍🚀 𝙎𝙪𝙜𝙜𝙚𝙨𝙩𝙞𝙤𝙣 𝙈𝙤𝙙𝙚"
 
 #Song
 SG_B_1 : "↗️ Open Private Chat"
@@ -322,17 +322,17 @@ SG_B_2 : "🔊 Audio"
 SG_B_3 : "🎥 Video"
 
 #Stats
-SA_B_1 : "📢 Top 10 Chat"
-SA_B_2 : "🔢 Top 10 Tracks"
-SA_B_3 : "🧛 Top 10 Users"
-SA_B_4 : "🏷 Top 10 Here"
-SA_B_5 : "💡 Overall Stats"
-SA_B_6 : "👤 User Stats"
-SA_B_7 : "🔢 Global Top 10 Stats"
-SA_B_8 : "🤖 Bot Stats"
+SA_B_1 : "❰📢 𝙏𝙤𝙥 𝟭𝟬 𝘾𝙝𝙖𝙩❱"
+SA_B_2 : "❰🔢 𝙏𝙤𝙥 𝟭𝟬 𝙏𝙧𝙖𝙘𝙠𝙨❱"
+SA_B_3 : "❰🧛 𝙏𝙤𝙥 𝟭𝟬 𝙐𝙨𝙚𝙧𝙨❱"
+SA_B_4 : "❰🏷 𝙏𝙤𝙥 𝟭𝟬 𝙃𝙚𝙧𝙚❱"
+SA_B_5 : "❰💡 𝙊𝙫𝙚𝙧𝙖𝙡𝙡 𝙎𝙩𝙖𝙩𝙨❱"
+SA_B_6 : "❰👤 𝙐𝙨𝙚𝙧 𝙎𝙩𝙖𝙩𝙨❱"
+SA_B_7 : "❰🔢 𝙂𝙡𝙤𝙗𝙖𝙡 𝙏𝙤𝙥 𝟭𝟬 𝙎𝙩𝙖𝙩𝙨❱"
+SA_B_8 : "❰🤖 𝘽𝙤𝙩 𝙎𝙩𝙖𝙩𝙨❱"
 
 #Queue
-QU_B_1 : "📑 Queued List"
+QU_B_1 : "📑 𝙌𝙪𝙚𝙪𝙚𝙙 𝙇𝙞𝙨𝙩"
 QU_B_2 : "Played {0} out of {1} Mins"
 
 # Sudo Users [ If you are translating this to some other language .. you can leave all these strings in english language]

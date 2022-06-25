@@ -315,7 +315,7 @@ async def update_(client, message, _):
             except Exception:
                 pass
         await response.edit(
-            f"{nrs.text}\n\nBot was updated successfully! Now, wait for 1 - 2 mins until the bot reboots!"
+            f"{nrs.text}\n\n𝘽𝙤𝙩 𝙬𝙖𝙨 𝙪𝙥𝙙𝙖𝙩𝙚𝙙 𝙨𝙪𝙘𝙘𝙚𝙨𝙨𝙛𝙪𝙡𝙡𝙮! 𝙉𝙤𝙬, 𝙬𝙖𝙞𝙩 𝙛𝙤𝙧 1 - 2 𝙢𝙞𝙣𝙨 𝙪𝙣𝙩𝙞𝙡 𝙩𝙝𝙚 𝙗𝙤𝙩 𝙧𝙚𝙗𝙤𝙤𝙩𝙨!"
         )
         os.system("pip3 install -r requirements.txt")
         os.system(f"kill -9 {os.getpid()} && bash start")

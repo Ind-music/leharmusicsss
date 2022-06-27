@@ -50,7 +50,7 @@ async def reload_admin_cache(client, message: Message, _):
         await message.reply_text(_["admin_20"])
     except:
         await message.reply_text(
-            "Failed to reload admincache. Make sure Bot is admin in your chat."
+            "𝙁𝙖𝙞𝙡𝙚𝙙 𝙩𝙤 𝙧𝙚𝙡𝙤𝙖𝙙 𝙖𝙙𝙢𝙞𝙣𝙘𝙖𝙘𝙝𝙚. 𝙈𝙖𝙠𝙚 𝙨𝙪𝙧𝙚 𝘽𝙤𝙩 𝙞𝙨 𝙖𝙙𝙢𝙞𝙣 𝙞𝙣 𝙮𝙤𝙪𝙧 𝙘𝙝𝙖𝙩."
         )
 
 
@@ -63,7 +63,7 @@ async def reload_admin_cache(client, message: Message, _):
 @AdminActual
 async def restartbot(client, message: Message, _):
     mystic = await message.reply_text(
-        f"Please Wait.. Restarting {MUSIC_BOT_NAME} for your chat.."
+        f"𝙋𝙡𝙚𝙖𝙨𝙚 𝙒𝙖𝙞𝙩.. 𝙍𝙚𝙨𝙩𝙖𝙧𝙩𝙞𝙣𝙜 {MUSIC_BOT_NAME} 𝙛𝙤𝙧 𝙮𝙤𝙪𝙧 𝙘𝙝𝙖𝙩.."
     )
     await asyncio.sleep(1)
     try:
@@ -83,7 +83,7 @@ async def restartbot(client, message: Message, _):
         except:
             pass
     return await mystic.edit_text(
-        "Successfully restarted. Try playing now.."
+        "𝙎𝙪𝙘𝙘𝙚𝙨𝙨𝙛𝙪𝙡𝙡𝙮 𝙧𝙚𝙨𝙩𝙖𝙧𝙩𝙚𝙙. 𝙏𝙧𝙮 𝙥𝙡𝙖𝙮𝙞𝙣𝙜 𝙣𝙤𝙬.."
     )
 
 
@@ -106,7 +106,7 @@ async def close_menu(_, CallbackQuery):
 
 
 @app.on_callback_query(
-    filters.regex("stop_downloading") & ~BANNED_USERS
+    filters.regex("𝙨𝙩𝙤𝙥_𝙙𝙤𝙬𝙣𝙡𝙤𝙖𝙙𝙞𝙣𝙜") & ~BANNED_USERS
 )
 @ActualAdminCB
 async def stop_download(client, CallbackQuery: CallbackQuery, _):
@@ -114,12 +114,12 @@ async def stop_download(client, CallbackQuery: CallbackQuery, _):
     task = lyrical.get(message_id)
     if not task:
         return await CallbackQuery.answer(
-            "Downloading already Completed.", show_alert=True
+            "𝘿𝙤𝙬𝙣𝙡𝙤𝙖𝙙𝙞𝙣𝙜 𝙖𝙡𝙧𝙚𝙖𝙙𝙮 𝘾𝙤𝙢𝙥𝙡𝙚𝙩𝙚𝙙.", show_alert=True
         )
     if task.done() or task.cancelled():
         return await CallbackQuery.answer(
-            "Downloading already Completed or Cancelled.",
-            show_alert=True,
+            "𝘿𝙤𝙬𝙣𝙡𝙤𝙖𝙙𝙞𝙣𝙜 𝙖𝙡𝙧𝙚𝙖𝙙𝙮 𝘾𝙤𝙢𝙥𝙡𝙚𝙩𝙚𝙙 𝙤𝙧 𝘾𝙖𝙣𝙘𝙚𝙡𝙡𝙚𝙙.",  
+          show_alert=True,
         )
     if not task.done():
         try:
@@ -129,15 +129,15 @@ async def stop_download(client, CallbackQuery: CallbackQuery, _):
             except:
                 pass
             await CallbackQuery.answer(
-                "Downloading Cancelled", show_alert=True
+                "𝘿𝙤𝙬𝙣𝙡𝙤𝙖𝙙𝙞𝙣𝙜 𝘾𝙖𝙣𝙘𝙚𝙡𝙡𝙚𝙙", show_alert=True
             )
             return await CallbackQuery.edit_message_text(
-                f"Download Cancelled by {CallbackQuery.from_user.mention}"
+                f"𝘿𝙤𝙬𝙣𝙡𝙤𝙖𝙙 𝘾𝙖𝙣𝙘𝙚𝙡𝙡𝙚𝙙 by {CallbackQuery.from_user.mention}"
             )
         except:
             return await CallbackQuery.answer(
-                "Failed to stop the Downloading.", show_alert=True
+                "𝙁𝙖𝙞𝙡𝙚𝙙 𝙩𝙤 𝙨𝙩𝙤𝙥 𝙩𝙝𝙚 𝘿𝙤𝙬𝙣𝙡𝙤𝙖𝙙𝙞𝙣𝙜.", show_alert=True
             )
     await CallbackQuery.answer(
-        "Failed to recognize the running task", show_alert=True
+        "𝙁𝙖𝙞𝙡𝙚𝙙 𝙩𝙤 𝙧𝙚𝙘𝙤𝙜𝙣𝙞𝙯𝙚 𝙩𝙝𝙚 𝙧𝙪𝙣𝙣𝙞𝙣𝙜 𝙩𝙖𝙨𝙠", show_alert=True
     )

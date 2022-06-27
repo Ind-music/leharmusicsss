@@ -33,7 +33,7 @@ async def activevc(_, message: Message):
         try:
             title = (await app.get_chat(x)).title
         except Exception:
-            title = "𝙋𝙧𝙞𝙫𝙖𝙩𝙚 𝙂𝙧𝙤𝙪𝙥"
+            title = "private Group"
         if (await app.get_chat(x)).username:
             user = (await app.get_chat(x)).username
             text += f"<b>{j + 1}.</b>  [{title}](https://t.me/{user})[`{x}`]\n"

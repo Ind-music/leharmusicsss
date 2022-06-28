@@ -91,9 +91,9 @@ async def start_comm(client, message: Message, _):
                     details = stats.get(vidid)
                     title = (details["title"][:35]).title()
                     if vidid == "telegram":
-                        msg += f"🔗[Telegram Files and Audios](https://t.me/telegram) ** played {count} times**\n\n"
+                        msg += f"🔗[Telegram Files and Audios](https://t.me/telegram) ** 𝙥𝙡𝙖𝙮𝙚𝙙 {count} 𝙩𝙞𝙢𝙚𝙨**\n\n"
                     else:
-                        msg += f"🔗 [{title}](https://www.youtube.com/watch?v={vidid}) ** played {count} times**\n\n"
+                        msg += f"🔗 [{title}](https://www.youtube.com/watch?v={vidid}) ** 𝙥𝙡𝙖𝙮𝙚𝙙 {count} 𝙩𝙞𝙢𝙚𝙨**\n\n"
                 msg = _["ustats_2"].format(tot, tota, limit) + msg
                 return videoid, msg
 
@@ -115,7 +115,7 @@ async def start_comm(client, message: Message, _):
                 sender_name = message.from_user.first_name
                 return await app.send_message(
                     config.LOG_GROUP_ID,
-                    f"{message.from_user.mention} has just started bot to check <code>SUDOLIST</code>\n\n**USER ID:** {sender_id}\n**USER NAME:** {sender_name}",
+                    f"{message.from_user.mention} 𝙝𝙖𝙨 𝙟𝙪𝙨𝙩 𝙨𝙩𝙖𝙧𝙩𝙚𝙙 𝙗𝙤𝙩 𝙩𝙤 𝙘𝙝𝙚𝙘𝙠 <code>𝙎𝙐𝘿𝙊𝙇𝙄𝙎𝙏</code>\n\n**𝙐𝙎𝙀𝙍 𝙄𝘿:** {sender_id}\n**𝙐𝙎𝙀𝙍 𝙉𝘼𝙈𝙀:** {sender_name}",
                 )
             return
         if name[0:3] == "lyr":
@@ -184,7 +184,7 @@ async def start_comm(client, message: Message, _):
                 sender_name = message.from_user.first_name
                 return await app.send_message(
                     config.LOG_GROUP_ID,
-                    f"{message.from_user.mention} has just started bot to check <code>VIDEO INFORMATION</code>\n\n**USER ID:** {sender_id}\n**USER NAME:** {sender_name}",
+                    f"{message.from_user.mention} 𝙝𝙖𝙨 𝙟𝙪𝙨𝙩 𝙨𝙩𝙖𝙧𝙩𝙚𝙙 𝙗𝙤𝙩 𝙩𝙤 𝙘𝙝𝙚𝙘𝙠 <code>VIDEO INFORMATION</code>\n\n**𝙐𝙎𝙀𝙍 𝙄𝘿:** {sender_id}\n**𝙐𝙎𝙀𝙍 𝙉𝘼𝙈𝙀:** {sender_name}",
                 )
     else:
         try:
@@ -217,7 +217,7 @@ async def start_comm(client, message: Message, _):
             sender_name = message.from_user.first_name
             return await app.send_message(
                 config.LOG_GROUP_ID,
-                f"{message.from_user.mention} has just started Bot.\n\n**USER ID:** {sender_id}\n**USER NAME:** {sender_name}",
+                f"{message.from_user.mention} 𝙝𝙖𝙨 𝙟𝙪𝙨𝙩 𝙨𝙩𝙖𝙧𝙩𝙚𝙙 𝘽𝙤𝙩.\n\n**𝙐𝙎𝙀𝙍 𝙄𝘿:** {sender_id}\n**𝙐𝙎𝙀𝙍 𝙉𝘼𝙈𝙀:** {sender_name}",
             )
 
 
@@ -247,7 +247,7 @@ async def welcome(client, message: Message):
     if config.PRIVATE_BOT_MODE == str(True):
         if not await is_served_private_chat(message.chat.id):
             await message.reply_text(
-                "**Private Music Bot**\n\nOnly for authorized chats from the owner. Ask my owner to allow your chat first."
+                "**𝙋𝙧𝙞𝙫𝙖𝙩𝙚 𝙈𝙪𝙨𝙞𝙘 𝘽𝙤𝙩**\n\n𝙊𝙣𝙡𝙮 𝙛𝙤𝙧 𝙖𝙪𝙩𝙝𝙤𝙧𝙞𝙯𝙚𝙙 𝙘𝙝𝙖𝙩𝙨 𝙛𝙧𝙤𝙢 𝙩𝙝𝙚 𝙤𝙬𝙣𝙚𝙧. 𝘼𝙨𝙠 𝙢𝙮 𝙤𝙬𝙣𝙚𝙧 𝙩𝙤 𝙖𝙡𝙡𝙤𝙬 𝙮𝙤𝙪𝙧 𝙘𝙝𝙖𝙩 𝙛𝙞𝙧𝙨𝙩."
             )
             return await app.leave_chat(message.chat.id)
     else:

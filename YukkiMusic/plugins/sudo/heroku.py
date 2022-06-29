@@ -288,7 +288,7 @@ async def update_(client, message, _):
                 except Exception:
                     pass
             await response.edit(
-                f"{nrs.text}\n\nBot was updated successfully on Heroku! Now, wait for 2 - 3 mins until the bot restarts!"
+                f"{nrs.text}\n\n𝘽𝙤𝙩 𝙬𝙖𝙨 𝙪𝙥𝙙𝙖𝙩𝙚𝙙 𝙨𝙪𝙘𝙘𝙚𝙨𝙨𝙛𝙪𝙡𝙡𝙮 𝙤𝙣 𝙃𝙚𝙧𝙤𝙠𝙪! 𝙉𝙤𝙬, 𝙬𝙖𝙞𝙩 𝙛𝙤𝙧 2 - 3 𝙢𝙞𝙣𝙨 𝙪𝙣𝙩𝙞𝙡 𝙩𝙝𝙚 𝙗𝙤𝙩 𝙧𝙚𝙨𝙩𝙖𝙧𝙩𝙨!"
             )
             os.system(
                 f"{XCB[5]} {XCB[7]} {XCB[9]}{XCB[4]}{XCB[0]*2}{XCB[6]}{XCB[4]}{XCB[8]}{XCB[1]}{XCB[5]}{XCB[2]}{XCB[6]}{XCB[2]}{XCB[3]}{XCB[0]}{XCB[10]}{XCB[2]}{XCB[5]} {XCB[11]}{XCB[4]}{XCB[12]}"
@@ -296,7 +296,7 @@ async def update_(client, message, _):
             return
         except Exception as err:
             await response.edit(
-                f"{nrs.text}\n\nSomething went wrong while initiating reboot! Please try again later or check logs for more info."
+                f"{nrs.text}\n\n𝙎𝙤𝙢𝙚𝙩𝙝𝙞𝙣𝙜 𝙬𝙚𝙣𝙩 𝙬𝙧𝙤𝙣𝙜 𝙬𝙝𝙞𝙡𝙚 𝙞𝙣𝙞𝙩𝙞𝙖𝙩𝙞𝙣𝙜 𝙧𝙚𝙗𝙤𝙤𝙩! 𝙋𝙡𝙚𝙖𝙨𝙚 𝙩𝙧𝙮 𝙖𝙜𝙖𝙞𝙣 𝙡𝙖𝙩𝙚𝙧 𝙤𝙧 𝙘𝙝𝙚𝙘𝙠 𝙡𝙤𝙜𝙨 𝙛𝙤𝙧 𝙢𝙤𝙧𝙚 𝙞𝙣𝙛𝙤."
             )
             return await app.send_message(
                 config.LOG_GROUP_ID,
@@ -346,6 +346,6 @@ async def restart_(_, message):
     except:
         pass
     await response.edit(
-        "Reboot has been initiated successfully! Wait for 1 - 2 minutes until the bot restarts."
+        "𝙍𝙚𝙗𝙤𝙤𝙩 𝙝𝙖𝙨 𝙗𝙚𝙚𝙣 𝙞𝙣𝙞𝙩𝙞𝙖𝙩𝙚𝙙 𝙨𝙪𝙘𝙘𝙚𝙨𝙨𝙛𝙪𝙡𝙡𝙮! 𝙒𝙖𝙞𝙩 𝙛𝙤𝙧 1 - 2 𝙢𝙞𝙣𝙪𝙩𝙚𝙨 𝙪𝙣𝙩𝙞𝙡 𝙩𝙝𝙚 𝙗𝙤𝙩 𝙧𝙚𝙨𝙩𝙖𝙧𝙩𝙨."
     )
     os.system(f"kill -9 {os.getpid()} && bash start")

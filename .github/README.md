@@ -1,8 +1,8 @@
 <img src="https://telegra.ph/file/c0e014ff34f34d1056627.png" align="right" width="200" height="200"/>
 
-# Yukki Music Bot <img src="https://img.shields.io/github/v/release/TeamYukki/YukkiMusicBot?color=black&logo=github&logoColor=black&style=social" alt="RELEASE">
+# Lehar Music Bot <img src="https://img.shields.io/github/v/release/TeamYukki/YukkiMusicBot?color=black&logo=github&logoColor=black&style=social" alt="RELEASE">
 
-[Yukki Music Bot](https://github.com/TeamYukki/YukkiMusicBot) is a Powerful Telegram Music+Video Bot written in Python using Pyrogram and Py-Tgcalls by which you can stream songs, video and even live streams in your group calls via various sources.
+[Lehar Music Bot](https://github.com/TeamYukki/YukkiMusicBot) is a Powerful Telegram Music+Video Bot written in Python using Pyrogram and Py-Tgcalls by which you can stream songs, video and even live streams in your group calls via various sources.
 
 * Youtube, Soundcloud, Apple Music, Spotify, Resso and Telegram Audios & Videos support.
 * Written from scratch, making it stable and less crashes.
@@ -49,9 +49,9 @@ For more information on the technologies that power the Yukki Music Bot, check o
 
 ## 🖇 Generating Pyrogram String Session
 
-- Generate a Pyrogram String Session via [Replit](https://replit.com/@NotReallyShikhar/Yukki-Music-String-Gen)
+- Generate a Pyrogram String Session via 
 
-- Generate a Pyrogram String Session via [Telegram String Generation Bot](https://t.me/YukkiStringBot)
+- Generate a Pyrogram String Session via 
 
 
 ## 🚀 Heroku Deployment
@@ -68,8 +68,8 @@ For more information on the technologies that power the Yukki Music Bot, check o
 
 
 ```console
-shikhar@MacBook~ $ git clone https://github.com/TeamYukki/YukkiMusicBot
-shikhar@MacBook~ $ cd YukkiMusicBot
+shikhar@MacBook~ $ git clone https://github.com/Teamlehar/leharMusicBot
+shikhar@MacBook~ $ cd leharMusicBot
 shikhar@MacBook~ $ sudo bash setup
 ```
 > Setup will install each and every requirement, nodejs and pip packages automatically. After successfull installation of requirements , setup will ask you to input your vars.
@@ -79,7 +79,7 @@ shikhar@MacBook~ $ sudo bash setup
 shikhar@MacBook~ $ bash start
 ```
 
-> Not Getting VPS Method? [Watch Tutorial](https://t.me/TheYukki/2275)
+> Not Getting VPS Method
 
 
 <img src="https://telegra.ph/file/6b75b57da50ef1183fcdc.jpg" align="center">
@@ -120,7 +120,7 @@ For a full list of all authors and contributors, see [the contributors page](htt
 
 ## ⚠️ Security
 
-YukkiMusicBot follows good practices of security, but 100% security cannot be assured. YukkiMusicBot is provided **"as is"** without any **warranty**. Use at your own risk.
+leharMusicBot follows good practices of security, but 100% security cannot be assured. YukkiMusicBot is provided **"as is"** without any **warranty**. Use at your own risk.
 
 For more information and to report security issues, please refer to our [`SECURITY.md`](SECURITY.md)
 

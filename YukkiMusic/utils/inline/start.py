@@ -21,7 +21,6 @@ def start_pannel(_):
             InlineKeyboardButton(text="❰𝘾𝙊𝙈𝙈𝘼𝙉𝘿𝙎❱", url=f"https://telegra.ph/Lehar-Music-Bot-cOmmANds-06-19",
             ),
             InlineKeyboardButton( 
-                text=_["S_B_2"], callback_data="settings_helper"
             ), 
         ],
         [

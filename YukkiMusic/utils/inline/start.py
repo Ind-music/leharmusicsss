@@ -20,9 +20,14 @@ def start_pannel(_):
         [
             InlineKeyboardButton(text="❰𝘾𝙊𝙈𝙈𝘼𝙉𝘿𝙎❱", url=f"https://telegra.ph/Lehar-Music-Bot-cOmmANds-06-19",
             ),
+            InlineKeyboardButton( 
+                text=_["S_B_2"], callback_data="settings_helper"
+            ), 
+        ],
+        [
             InlineKeyboardButton(text="❰𝙊𝙬𝙣𝙚𝙧❱", url=f"https://t.me/Dm0Ds_kAkaShI"),
             InlineKeyboardButton(text="❰𝙂𝙧𝙤𝙪𝙥❱", url=f"https://t.me/international_Chatting_Zone"),
-        ]
+        ],
     ]
     if SUPPORT_CHANNEL and SUPPORT_GROUP:
         buttons.append(

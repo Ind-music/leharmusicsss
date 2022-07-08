@@ -22,7 +22,6 @@ def start_pannel(_):
             ),
         ],
         [
-            InlineKeyboardButton(text="❰𝙂𝙧𝙤𝙪𝙥❱", url=f"https://t.me/+ZRhHTR-_xu1kNjE5"),
             InlineKeyboardButton(text="❰𝙊𝙬𝙣𝙚𝙧❱", url=f"https://t.me/Dm0Ds_kAkaShI"),
         ],
     ]

@@ -23,6 +23,7 @@ def start_pannel(_):
         ],
         [
             InlineKeyboardButton(text="❰𝙊𝙬𝙣𝙚𝙧❱", url=f"https://t.me/Dm0Ds_kAkaShI"),
+            InlineKeyboardButton(text=_["S_B_5"], url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
         ],
     ]
     if SUPPORT_CHANNEL and SUPPORT_GROUP:

@@ -56,8 +56,18 @@ For more information on the technologies that power the Yukki Music Bot, check o
 
 ## 🚀 Heroku Deployment
 
-<h4>Click the button below to deploy Yukki on Heroku!</h4>    
-<a href="https://yukki.tech/deploy/"><img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="200""/></a>
+<h4>Click the button below to deploy Leharmusicbot on Heroku!</h4>  
+  
+<a href="https://dashboard.heroku.com/new?template=https://github.com/Leharmusicbot/leharmusicsss"><img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="200""/></a>
+
+> How to Deploy To Heroku? [Watch Tutorial](https://www.youtube.com/embed/NPTk-awGalY)
+
+> Click on buttons below to expand and  detailed explanation process. !
+    
+<details>
+    <summary><b> Detailed Heroku Depoyment Process » </b></summary>
+
+<img src="https://telegra.ph/file/672efa7b8160ed39c6e86.jpg" align="right" width="350" height="700"/>
 
 > Want detailed explanation of Heroku Deployment? [Click Here](https://notreallyshikhar.gitbook.io/yukkimusicbot/deployment/heroku)
 

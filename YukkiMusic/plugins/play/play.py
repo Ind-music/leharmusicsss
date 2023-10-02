@@ -57,6 +57,21 @@ async def play_commnd(
     url,
     fplay,
 ):
+    if not await is_served_user(message.from_user.id):
+        await message.reply_text(
+            text="𝐄𝗋𝗋ⱺ𝗋, 𝚈𝚘𝚞'𝚛𝚎 𝙽𝚘𝚝 𝙰 𝚅𝚎𝚛𝚒𝚏𝚒𝚎𝚍 𝚄𝚜𝚎𝚛 ❌\n𝙿𝚕𝚎𝚊𝚜𝚎 𝙲𝚕𝚒𝚌𝚔 𝙾𝚗 𝚃𝚑𝚎 𝙱𝚎𝚕𝚘𝚠 𝙱𝚞𝚝𝚝𝚘𝚗 𝚃𝚘 𝚅𝚎𝚛𝚒𝚏𝚢 𝚈𝚘𝚞𝚛𝚜𝚎𝚕𝚏 .",
+            reply_markup=InlineKeyboardMarkup(
+                [
+                    [
+                        InlineKeyboardButton(
+                            text="𝐂ᥣ𝗂𝖼𝗄 𝐅ⱺ𝗋 𝐏ᥣα𝗒 𝐎𝗋 𝐕𝖾𝗋𝗂𝖿𝗒 𝐇𝖾𝗋𝖾",
+                            url=f"https://t.me/{app.username}?start=verify",
+                        )
+                    ]
+                ]
+            ),
+        )
+        return
     mystic = await message.reply_text(
         _["play_2"].format(channel) if channel else _["play_1"]
     )
@@ -217,7 +232,7 @@ async def play_commnd(
                 and not config.SPOTIFY_CLIENT_SECRET
             ):
                 return await mystic.edit_text(
-                    "This bot isn't able to play spotify queries. Please ask my owner to enable spotify."
+                    "𝐓𝐡𝐢𝐬 𝐁𝐨𝐭 𝐂𝐚𝐧'𝐭 𝐏𝐥𝐚𝐲 𝐒𝐩𝐨𝐭𝐢𝐟𝐲 𝐓𝐫𝐜𝐤𝐬 𝐨𝐫 𝐏𝐥𝐚𝐲𝐥𝐢𝐬𝐭𝐬 𝐑𝐞𝐩𝐨𝐫𝐭 [𝐊𝚰𝐓𝐓𝐔 𝐂𝐡𝐚𝐭](https://t.me/hindi_chattings_zone)."
                 )
             if "track" in url:
                 try:
@@ -335,14 +350,14 @@ async def play_commnd(
             return await mystic.delete()
         else:
             try:
-                await Yukki.stream_call(url)
+                await Bikashh.stream_call(url)
             except NoActiveGroupCall:
                 await mystic.edit_text(
-                    "There's an issue with the bot. Please report it to my owner and ask them to check logger group."
+                    "There's An Error In The Bot Then Report [𝐊𝚰𝐓𝐓𝐔 𝐂𝐡𝐚𝐭](https://t.me/hindi_chattings_zone) AN Error"
                 )
                 return await app.send_message(
                     config.LOG_GROUP_ID,
-                    "Please turn on Voice Chat.. Bot is not able to stream urls..",
+                    "𝐏𝐥𝐞𝐚𝐬𝐞 𝐓𝐮𝐫𝐧 𝐎𝐧 𝐕𝐜 𝐓𝐨 𝐏𝐥𝐚𝐲 𝐌𝐮𝐬𝐢𝐜.",
                 )
             except Exception as e:
                 return await mystic.edit_text(
@@ -591,7 +606,7 @@ async def play_music(client, CallbackQuery, _):
 async def anonymous_check(client, CallbackQuery):
     try:
         await CallbackQuery.answer(
-            "You're an Anonymous Admin\n\nGo to your group's setting \n-> Administrators List \n-> Click on your name \n-> uncheck REMAIN ANONYMOUS button there.",
+            "🥀 You're An Anonymous Admin\n\nRevert To Normal TheN Use Me 💖.",
             show_alert=True,
         )
     except:
@@ -599,7 +614,7 @@ async def anonymous_check(client, CallbackQuery):
 
 
 @app.on_callback_query(
-    filters.regex("YukkiPlaylists") & ~BANNED_USERS
+    filters.regex("kittuPlaylists") & ~BANNED_USERS
 )
 @languageCB
 async def play_playlists_command(client, CallbackQuery, _):
